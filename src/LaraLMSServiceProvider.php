@@ -13,7 +13,7 @@ class LaraLMSServiceProvider extends ServiceProvider
 	 */
 	public function boot()
 	{
-		include __DIR__ . '/routes.php';
+		require __DIR__ . '/routes/web.php';
 		
 		$this->loadViewsFrom(__DIR__ . '/Views', 'laralms');
 	}
@@ -25,8 +25,8 @@ class LaraLMSServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->app['laralms'] = $this->app->share(function($app) {
-			return new LaraLMS;
-		});
+//		$this->app['laralms'] = $this->app->share(function($app) {
+//			return new LaraLMS;
+//		});
 	}
 }
