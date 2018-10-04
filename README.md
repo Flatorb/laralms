@@ -1,2 +1,2 @@
-# laralms
+# LaraLMS
 Laravel LMS
