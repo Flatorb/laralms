@@ -1,0 +1,13 @@
+{
+    "name": "flatorb/laralms",
+    "description": "Laravel LMS",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Flatorb",
+            "email": "contact@flatorb.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
